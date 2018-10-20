@@ -1,0 +1,127 @@
+
+
+html {
+	height: 100%;
+}
+
+body {
+
+
+	background: url(bg.jpg);
+
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+.FUCK {
+
+	display: flex;
+	flex:1;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+.bgx12 {
+	
+
+}
+.flexless {
+	flex:none;
+}
+
+.set:hover {
+	background: #CCCCCC;
+}
+
+.centeredx {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.bemp {
+	color:#FFFFFF;
+	font-size: 14px;
+
+}
+
+.aligned {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.text {
+	color: white;
+
+}
+
+.text1 {
+	color:white;
+}
+
+
+.row {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex:1;
+}
+
+.row::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.xyzj {
+	display: flex;
+	flex-direction: column;
+	line-height: 0;
+
+}
+
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+
+
+@media screen and (max-width: 500px){
+	.dee {
+		width: 300px;
+		height: 200px;
+	}
+
+	.text1 {
+		font-size: 40px;
+	}
+}
